@@ -1,0 +1,12 @@
+1. First setup backup server environment
+	Install required software
+sudo apt update
+sudo apt install python3 python3-pip rsync
+
+
+
+2. Setup backup directory
+sudo mkdir -p /backup
+sudo chown $USER:$USER /backup
+
+

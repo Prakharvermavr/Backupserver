@@ -1,0 +1,7 @@
+1. Edit the crontab
+crontab -e
+
+2. Add a cron job
+0 2 * * * /usr/bin/python3 /path/to/backup.py
+
+
